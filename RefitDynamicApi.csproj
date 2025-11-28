@@ -2,13 +2,21 @@
 
   <PropertyGroup>
   <TargetFramework>net8.0</TargetFramework>
-  <PackageId>Refit.DynamicApi</PackageId>
+  <PackageId>RefitDynamicApi</PackageId>
   <Version>1.0.0</Version>
   <Authors>Abdurrahman Altıntaş</Authors>
   <Company></Company>
-  <Description>Convert Refit client interfaces to dynamic Minimal API endpoints</Description>
+  <Description>
+  RefitDynamicApi provides dynamic API support built on top of the Refit library.
+  It extends Refit’s capabilities by enabling flexible endpoint definitions and runtime configuration,
+  making it easier to integrate RESTful APIs with minimal boilerplate code.
+  </Description>
   <RepositoryUrl>https://github.com/altintasmail/RefitDynamicApi</RepositoryUrl>
   <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  <PackageProjectUrl>https://github.com/altintasmail/RefitDynamicApi</PackageProjectUrl>
+  <RepositoryType>git</RepositoryType>
+  <PackageTags>refit;http;api;dynamic</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
