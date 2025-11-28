@@ -1,6 +1,6 @@
 # Refit.DynamicApi
 
-[![NuGet](https://img.shields.io/nuget/v/Refit.DynamicApi.svg)](https://www.nuget.org/packages/Refit.DynamicApi)  
+[![NuGet](https://img.shields.io/nuget/v/RefitDynamicApi.svg)](https://www.nuget.org/packages/RefitDynamicApi)  
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Dynamic Minimal API mapping for **Refit client interfaces**.  
