@@ -1,4 +1,4 @@
-# Refit.DynamicApi
+# RefitDynamicApi
 
 [![NuGet](https://img.shields.io/nuget/v/RefitDynamicApi.svg)](https://www.nuget.org/packages/RefitDynamicApi)  
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -23,7 +23,7 @@ Automatically exposes your Refit interfaces as HTTP endpoints in a **.NET 8/9 Mi
 Install via NuGet: 
 
 ```bash
-dotnet add package Refit.DynamicApi
+dotnet add package RefitDynamicApi
 ```
 
 Download [![GitHub Repo](https://img.shields.io/badge/GitHub-Source-blue?logo=github)](https://github.com/altintasmail/RefitDynamicApi)
