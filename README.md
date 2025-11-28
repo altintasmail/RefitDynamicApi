@@ -26,7 +26,9 @@ Install via NuGet:
 dotnet add package RefitDynamicApi
 ```
 
-Download [![GitHub Repo](https://img.shields.io/badge/GitHub-Source-blue?logo=github)](https://github.com/altintasmail/RefitDynamicApi)
+Download
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Source-blue?logo=github)](https://github.com/altintasmail/RefitDynamicApi)
 
 - **Define your Refit clients:**
 
