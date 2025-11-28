@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Dynamic Minimal API mapping for **Refit client interfaces**.  
-Automatically exposes your Refit interfaces as HTTP endpoints in a **.NET 7/8/9 Minimal API** project.
+Automatically exposes your Refit interfaces as HTTP endpoints in a **.NET 8/9 Minimal API** project.
 
 ---
 
