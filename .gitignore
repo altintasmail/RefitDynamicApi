@@ -1,0 +1,71 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.opr
+
+# Visual Studio generated files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Build results
+*.cache
+*.tmp
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+
+# Package restore folders
+packages/
+
+# Auto-generated
+Generated/
+GeneratedCode/
+
+# Backup
+*.bak
+*.orig
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Dotnet tools
+.tools/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.trx
+
+# Publish output
+publish/
+
+# Local settings
+appsettings.Development.json
+appsettings.Local.json
+
+# Keys / secrets (very important)
+*.key
+*.pfx
+*.snk
+*.cer
+*.pem
+*.priv
+.nuget-key
+.env
+.env.*
