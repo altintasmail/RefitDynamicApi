@@ -3,7 +3,9 @@
 [![NuGet](https://img.shields.io/nuget/v/RefitDynamicApi.svg)](https://www.nuget.org/packages/RefitDynamicApi)  
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Dynamic Minimal API mapping for **Refit client interfaces**.  
+RefitDynamicApi provides dynamic API support built on top of the Refit library.
+It extends Refit’s capabilities by enabling flexible endpoint definitions and runtime configuration, making it easier to integrate RESTful APIs with minimal boilerplate code.
+
 Automatically exposes your Refit interfaces as HTTP endpoints in a **.NET 8/9 Minimal API** project.
 
 ---
