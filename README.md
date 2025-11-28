@@ -20,11 +20,13 @@ Automatically exposes your Refit interfaces as HTTP endpoints in a **.NET 7/8/9 
 
 ## Installation
 
-Install via NuGet: or Download [![GitHub Repo](https://img.shields.io/badge/GitHub-Source-blue?logo=github)](https://github.com/altintasmail/RefitDynamicApi)
+Install via NuGet: 
 
 ```bash
 dotnet add package Refit.DynamicApi
 ```
+
+Download [![GitHub Repo](https://img.shields.io/badge/GitHub-Source-blue?logo=github)](https://github.com/altintasmail/RefitDynamicApi)
 
 - **Define your Refit clients:**
 
