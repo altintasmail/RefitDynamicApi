@@ -25,8 +25,8 @@ namespace RefitDynamicApi.Extensions
                 baseInterfaceType.IsAssignableFrom(t)
             ).ToList();
 
-            if(!clientInterfaces.Any())
-            throw new Exception($"Make sure your Refit interfaces is Assignable from {baseInterfaceType.Name}");
+            if (!clientInterfaces.Any())
+                throw new Exception($"Make sure your Refit interfaces is Assignable from {baseInterfaceType.Name}");
 
             foreach (var item in clientInterfaces)
             {
