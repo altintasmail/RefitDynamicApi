@@ -38,14 +38,14 @@ Download
 using Refit;
 public interface IUserClient : IRefitClient
 {
-    [Get("/youApi/User/List")]
+    [Get("/yourApi/User/List")]
     Task<List<UserDto>> ListUser();
 
-    [Post("/youApi/User/Save")]
+    [Post("/yourApi/User/Save")]
     Task<bool> SaveUser([Body] UserDto input);
 
     [DisableMethod] //This method is disable in dynamic api endpoints
-    [Get("/youApi/User/Remove")]
+    [Get("/yourApi/User/Remove")]
     Task<bool> RemoveUser(int id);
 }
 ```
