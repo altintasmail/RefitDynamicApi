@@ -93,6 +93,12 @@ namespace RefitDynamicApi.Extensions
                 if (httpAttr is null)
                     continue;
 
+                                //var parameters = method.GetParameters();
+                //bool hasClassOrArrayParam = parameters.Any(p =>
+                //    (p.ParameterType.IsClass && p.ParameterType != typeof(string))
+                //    || p.ParameterType.IsArray
+                //);
+
                 var route = $"{baseRoute}/{controllerName}/{method.Name}";
 
                 if (httpAttr is GetAttribute)
