@@ -53,6 +53,10 @@ namespace RefitDynamicApi.Helpers
             // Body parametresi varsa
             var bodyParam = parameters.FirstOrDefault(p => p.GetCustomAttribute<BodyAttribute>() != null);
 
+            //var bodyParam = parameters.FirstOrDefault(p =>
+            //      (p.ParameterType.IsClass && p.ParameterType != typeof(string))
+            //      || p.ParameterType.IsArray);
+            
             foreach (var (p, index) in parameters.Select((p, i) => (p, i)))
             {
                 var type = p.ParameterType;
